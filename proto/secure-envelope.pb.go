@@ -7,7 +7,7 @@
 // 	protoc        (unknown)
 // source: proto/secure-envelope.proto
 
-package envelope_v1
+package sm_v1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -127,7 +127,7 @@ const file_proto_secure_envelope_proto_rawDesc = "" +
 	"message_id\x18\x03 \x01(\tR\tmessageId\x12%\n" +
 	"\x0eencrypted_data\x18\x04 \x01(\fR\rencryptedData\x126\n" +
 	"\x17encrypted_symmetric_key\x18\x05 \x01(\fR\x15encryptedSymmetricKey\x12\x1c\n" +
-	"\tsignature\x18\x06 \x01(\fR\tsignatureBUZSgithub.com/illmade-knight/go-action-intention-protos/gen/go/envelope/v1;envelope_v1b\x06proto3"
+	"\tsignature\x18\x06 \x01(\fR\tsignatureBIZGgithub.com/illmade-knight/go-action-intention-protos/gen/go/sm/v1;sm_v1b\x06proto3"
 
 var (
 	file_proto_secure_envelope_proto_rawDescOnce sync.Once
